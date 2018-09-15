@@ -1,0 +1,39 @@
+.facebook-message {
+	display: flex;
+}
+
+.facebook-message-sent {
+	flex-direction: row-reverse;
+}
+
+.facebook-message-avatar {
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	padding: 0 5px;
+}
+
+.facebook-message-container {
+	display: inline-block;
+	margin-bottom: 2px;
+	clear: both;
+	padding: 7px 10px;
+	font-size: 12px;
+	border-radius: 15px;
+	line-height: 1.4;
+	max-width: 70%;
+}
+
+.facebook-message-text-sent {
+	background-color: #1998e6;
+	color: #fff;
+	justify-content: flex-end;
+}
+
+.facebook-message-text-received {
+	background-color: #ddd;
+}
+
+.facebook-message-text {
+	width: 100%;
+}
