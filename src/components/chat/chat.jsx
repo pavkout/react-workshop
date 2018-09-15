@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 
 import Message from '../massage/message';
 
+import {messages} from '../../resources';
+
 import './chat.css';
 
 class Chat extends Component {
@@ -10,53 +12,22 @@ class Chat extends Component {
 
 				this.state = {
 						isActive: false,
-						messages: [
-								{
-										text: 'Hey Reactors!',
-										type: 'sent'
-								}, {
-										text: "What's up",
-										type: 'sent'
-								}, {
-										text: 'Not much... Just browsing in my favorite site, www.react-skg-io. Did you check i' +
-														't out yet?',
-										type: 'received'
-								}, {
-										text: "Yeah, it's pretty awesome!",
-										type: 'sent'
-								}, {
-										text: ':)',
-										type: 'received'
-								}
-						],
+						messages,
 						activeMessage: ''
 				};
-
-				this.handleClick = this
-						.handleClick
-						.bind(this);
-				this.handleInputChange = this
-						.handleInputChange
-						.bind(this);
-				this.handleKeyPress = this
-						.handleKeyPress
-						.bind(this);
-				this.handlePlayClick = this
-						.handlePlayClick
-						.bind(this);
 		}
 
-		handleClick() {
+		handleClick = () => {
 				this.setState({
 						isActive: !this.state.isActive
 				});
 		}
 
-		handleInputChange(e) {
+		handleInputChange = (e) => {
 				this.setState({activeMessage: e.target.value});
 		}
 
-		handleKeyPress(e) {
+		handleKeyPress = (e) => {
 				console.log('Enter pressed');
 				var keyCode = e.which || e.keyCode;
 				if (keyCode === 13) {
@@ -64,13 +35,13 @@ class Chat extends Component {
 				}
 		}
 
-		handlePlayClick() {
+		handlePlayClick = () => {
 				if (this.state.activeMessage !== '') {
 						this.sentMessage();
 				}
 		}
 
-		sentMessage() {
+		sentMessage = () => {
 				this.setState({
 						messages: this
 								.state
@@ -85,7 +56,7 @@ class Chat extends Component {
 				});
 		}
 
-		renderMessages() {
+		renderMessages = () => {
 				const messages = this
 						.state
 						.messages
