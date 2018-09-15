@@ -28,7 +28,6 @@ class Chat extends Component {
 		}
 
 		handleKeyPress = (e) => {
-				console.log('Enter pressed');
 				var keyCode = e.which || e.keyCode;
 				if (keyCode === 13) {
 						this.sentMessage();
