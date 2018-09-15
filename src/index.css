@@ -1,0 +1,24 @@
+* {
+	text-decoration: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: 'Segoe UI', Arial;
+}
+::-webkit-scrollbar {
+	width: 8px;
+	height: 10px;
+	background-color: rgba(255, 255, 255, 10);
+}
+::-webkit-scrollbar-thumb {
+	background-color: #d9d9d9;
+	height: 5px;
+	border-radius: 3px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #e9ebee;
+	position: relative;
+}

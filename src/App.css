@@ -1,0 +1,271 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.post-container {
+  padding-top: 200px;
+}
+
+.post-wrapper {
+	color: rgb(29, 33, 41);
+	height: 326px;
+	overflow-wrap: break-word;
+	width: 500px;
+	word-wrap: break-word;
+	margin: 10px auto;
+	column-rule-color: rgb(29, 33, 41);
+	-webkit-locale: 'en';
+	perspective-origin: 251px 163px;
+	-webkit-text-emphasis-color: rgb(29, 33, 41);
+	-webkit-text-fill-color: rgb(29, 33, 41);
+	-webkit-text-stroke-color: rgb(29, 33, 41);
+	transform-origin: 251px 163px;
+	border: 0px none rgb(29, 33, 41);
+	font: normal normal normal normal 12px / 16.08px helvetica, arial, sans-serif;
+	outline: rgb(29, 33, 41) none 0px;
+	-webkit-border-after: 0px none rgb(29, 33, 41);
+	-webkit-border-before: 0px none rgb(29, 33, 41);
+	-webkit-border-end: 0px none rgb(29, 33, 41);
+	-webkit-border-start: 0px none rgb(29, 33, 41);
+	-webkit-transform-origin: 251px 163px;
+}
+
+.post-wrapper-2 {
+	height: 324px;
+	width: 500px;
+	perspective-origin: 251px 163px;
+	transform-origin: 251px 163px;
+	background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+	border-top: 1px solid rgb(229, 230, 233);
+	border-right: 1px solid rgb(223, 224, 228);
+	border-bottom: 1px solid rgb(208, 209, 213);
+	border-left: 1px solid rgb(223, 224, 228);
+	border-radius: 3px 3px 3px 3px;
+	margin: 0px 0px 10px;
+	-webkit-border-after: 1px solid rgb(208, 209, 213);
+	-webkit-border-before: 1px solid rgb(229, 230, 233);
+	-webkit-border-end: 1px solid rgb(223, 224, 228);
+	-webkit-border-start: 1px solid rgb(223, 224, 228);
+	-webkit-transform-origin: 251px 163px;
+}
+
+.post-wrapper-3 {
+	height: 300px;
+	width: 476px;
+	perspective-origin: 250px 162px;
+	transform-origin: 250px 162px;
+	padding: 12px;
+	-webkit-border-after: 0px none rgb(29, 33, 41);
+	-webkit-border-before: 0px none rgb(29, 33, 41);
+	-webkit-border-end: 0px none rgb(29, 33, 41);
+	-webkit-border-start: 0px none rgb(29, 33, 41);
+	-webkit-transform-origin: 250px 162px;
+}
+
+.placeholder-shimmer {
+	background-position: 346.059px 0px;
+	bottom: 0px;
+	height: 104px;
+	left: 0px;
+	position: relative;
+	right: 0px;
+	top: 0px;
+	width: 476px;
+	perspective-origin: 238px 52px;
+	transform-origin: 238px 52px;
+	animation: placeHolderShimmer 1s linear 0s infinite normal forwards running;
+	background: rgb(246, 247, 249)
+		linear-gradient(
+			to right,
+			rgb(246, 247, 248) 0%,
+			rgb(237, 238, 241) 20%,
+			rgb(246, 247, 248) 40%,
+			rgb(246, 247, 249) 100%
+		)
+		no-repeat scroll 346.059px 0px / 800px 104px padding-box border-box;
+	-webkit-transform-origin: 238px 52px;
+}
+
+.placeholder-shimmer div {
+	position: absolute;
+	background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.placeholder-mask-1 {
+	bottom: 64px;
+	height: 40px;
+	left: 40px;
+	right: 428px;
+	top: 0px;
+	width: 8px;
+	perspective-origin: 4px 20px;
+	transform-origin: 4px 20px;
+	-webkit-transform-origin: 4px 20px;
+}
+
+.placeholder-mask-2 {
+	bottom: 96px;
+	height: 8px;
+	left: 48px;
+	right: 0px;
+	top: 0px;
+	width: 428px;
+	perspective-origin: 214px 4px;
+	transform-origin: 214px 4px;
+	-webkit-transform-origin: 214px 4px;
+}
+
+.placeholder-mask-3 {
+	bottom: 90px;
+	height: 6px;
+	left: 136px;
+	right: 0px;
+	top: 8px;
+	width: 340px;
+	perspective-origin: 170px 3px;
+	transform-origin: 170px 3px;
+	-webkit-transform-origin: 170px 3px;
+}
+
+.placeholder-mask-4 {
+	bottom: 78px;
+	height: 12px;
+	left: 48px;
+	right: 0px;
+	top: 14px;
+	width: 428px;
+	perspective-origin: 214px 6px;
+	transform-origin: 214px 6px;
+	-webkit-transform-origin: 214px 6px;
+}
+
+.placeholder-mask-5 {
+	bottom: 72px;
+	height: 6px;
+	left: 100px;
+	right: 0px;
+	top: 26px;
+	width: 376px;
+	perspective-origin: 188px 3px;
+	transform-origin: 188px 3px;
+	-webkit-transform-origin: 188px 3px;
+}
+
+.placeholder-mask-6 {
+	bottom: 62px;
+	height: 10px;
+	left: 48px;
+	right: 0px;
+	top: 32px;
+	width: 428px;
+	perspective-origin: 214px 5px;
+	transform-origin: 214px 5px;
+	-webkit-transform-origin: 214px 5px;
+}
+
+.placeholder-mask-7 {
+	bottom: 44px;
+	height: 20px;
+	left: 0px;
+	right: 0px;
+	top: 40px;
+	width: 476px;
+	perspective-origin: 238px 10px;
+	transform-origin: 238px 10px;
+	-webkit-transform-origin: 238px 10px;
+}
+
+.placeholder-mask-8 {
+	bottom: 38px;
+	height: 6px;
+	left: 410px;
+	right: 0px;
+	top: 60px;
+	width: 66px;
+	perspective-origin: 33px 3px;
+	transform-origin: 33px 3px;
+	-webkit-transform-origin: 33px 3px;
+}
+
+.placeholder-mask-9 {
+	bottom: 25px;
+	height: 13px;
+	left: 0px;
+	right: 0px;
+	top: 66px;
+	width: 476px;
+	perspective-origin: 238px 6.5px;
+	transform-origin: 238px 6.5px;
+	-webkit-transform-origin: 238px 6.5px;
+}
+
+.placeholder-mask-10 {
+	bottom: 19px;
+	height: 6px;
+	left: 440px;
+	right: 0px;
+	top: 79px;
+	width: 36px;
+	perspective-origin: 18px 3px;
+	transform-origin: 18px 3px;
+	-webkit-transform-origin: 18px 3px;
+}
+
+.placeholder-mask-11 {
+	bottom: 6px;
+	height: 13px;
+	left: 0px;
+	right: 0px;
+	top: 85px;
+	width: 476px;
+	perspective-origin: 238px 6.5px;
+	transform-origin: 238px 6.5px;
+	-webkit-transform-origin: 238px 6.5px;
+}
+
+.placeholder-mask-12 {
+	bottom: 0px;
+	height: 6px;
+	left: 178px;
+	right: 0px;
+	top: 98px;
+	width: 298px;
+	perspective-origin: 149px 3px;
+	transform-origin: 149px 3px;
+	-webkit-transform-origin: 149px 3px;
+}
+
+@-webkit-keyframes placeHolderShimmer {
+	0% {
+		background-position: -468px 0;
+	}
+	100% {
+		background-position: 468px 0;
+	}
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
