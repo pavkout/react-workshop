@@ -1,0 +1,30 @@
+React Workshop notes 
+
+Icons: 
+Guest User Icon: https://www.ervets4pets.com/wp-content/uploads/2017/12/img-placeholder.png
+User Icon: https://scontent-sof1-1.xx.fbcdn.net/v/t1.0-1/p200x200/22449929_384533385314504_3490922254878735069_n.png?_nc_cat=0&oh=f6fa6a484a862b0361cadca35093c152&oe=5C356F55
+
+Color Palette 
+- rgb(66, 183, 42) (Online)
+- #1998e6 (Message sent)
+- ##ddd (Message received)
+- #4267b2 {Header}
+
+Header Icon
+<i className="facebook-chat-header-actions-icon fa fa-plus"/>
+<i className="facebook-chat-header-actions-icon fa fa-camera"/>
+<i className="facebook-chat-header-actions-icon fa fa-phone"/>
+<i className="facebook-chat-header-actions-icon fa fa-cog"/>
+<i className="facebook-chat-header-actions-icon fa fa-times"/>
+
+Footer Icons 
+<i className="facebook-chat-message-actions-icon fa fa-image"/>
+<i className="facebook-chat-message-actions-icon fa fa-address-book"/>
+<i className="facebook-chat-message-actions-icon fa fa-paperclip"/>
+<i className="facebook-chat-message-actions-icon fa fa-camera"/>
+<i className="facebook-chat-message-actions-icon fa fa-sticky-note"/>
+
+Like Icon
+<i className={`facebook-chat-message-actions-like-icon fa fa-thumbs-up />
+OR
+<i className={`facebook-chat-message-actions-like-icon fa fa-play />
